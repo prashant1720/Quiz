@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+ android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Sigin Up"
+        android:textSize="24dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_marginTop="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="create your free Account here"
+
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Your Name"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/registeremail"
+        android:layout_width="286dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="162dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/registerpass"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="210dp"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="453dp" />
+    <EditText
+        android:id="@+id/confirmpass"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="270dp"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+
+    <Button
+        android:id="@+id/go_to_sigin"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/buttondesign"
+        android:text="Sigin Up ->"
+
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_marginStart="175dp"
+        android:textFontWeight="25"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text="OR" />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:text="Sigin up Google Account"
+        android:textColor="#fff"
+        android:background="@drawable/googlebutton"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="35dp"
+        />
+</android.widget.RelativeLayout>

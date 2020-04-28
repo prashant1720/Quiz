@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#000"
+
+        android:textSize="24dp"
+        android:text="Welcome!" />
+    <TextView
+        android:id="@+id/welcomeBelowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="78dp"
+
+
+        android:text="sigin to your account" />
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="367dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+
+        android:hint="Your Email"
+
+
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="580dp"
+        android:text="Don't have an account?" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create one"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="580dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/CreateOne"
+        />
+
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="380dp"
+        android:text="LOGIN ->"
+        android:textColor="#ffff"
+        android:background="@drawable/buttondesign"
+        />
+    <Button
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="480dp"
+        android:text="Sigin with Google ->"
+
+
+        android:textColor="#ffff"
+        android:background="@drawable/googlebutton"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="440dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_marginStart="180dp"
+        android:textFontWeight="20"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text="OR" />
+
+    <EditText
+        android:id="@+id/Password_login"
+        android:layout_width="367dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+
+        android:hint="Password" />
+
+
+</android.widget.RelativeLayout>
